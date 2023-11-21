@@ -11,6 +11,11 @@
               <i class="fab fa-linkedin" title="Linkedin link"></i>
             </a>
           </li>
+          <li>
+            <a target="_blank" href="mailto:tylervn01@gmail.com" class="button button--sacnite button--round-l">
+              <i class="fa-solid fa-envelope" title="Email Link"></i>
+            </a>
+          </li>
         
       {%- if site.email -%}
         <p>
@@ -19,14 +24,10 @@
       {%- endif -%}
       {%- if site.phone -%}
         <p>
-          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+          "Phone: +44 78 6918 9059
         </p>
       {%- endif -%}
-      {%- if site.website -%}
-        <p>
-          {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
-        </p>
-      {%- endif -%}
+      
     </div>
   </div>
 </div>
