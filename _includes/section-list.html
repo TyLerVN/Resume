@@ -2,6 +2,7 @@
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="{{ item.title | slugify }}">Buckinghamshire New University Office for Students Projects</h4>
+      <h5>£6m</h5>
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
@@ -22,7 +23,7 @@
           project/s. Tyler works alongside several key
           stakeholders to deliver the project/s requirements.</p>
       {%- endif -%}
-      {{ item.description | strip | markdownify }}
+      
     </div>
   </div>
 {% endfor %}
