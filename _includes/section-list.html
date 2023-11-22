@@ -1,26 +1,26 @@
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="{{ item.title | slugify }}">Buckinghamshire New University Office for Students Projects,}</h4>
+      <h4 id="{{ item.title | slugify }}">Buckinghamshire New University Office for Students Projects</h4>
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
       {%- if item.link -%}
         <a href="project1.html">See more info and photos here</a>
-    
       {%- endif -%}
-
-      <p class="no-print aditional-links">
-        {% for link in item.additional_links %}
-          {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-          </a>
-        {% endfor %}
+      
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
       {%- if item.quote -%}
-        <p class="quote">{{ item.quote }}</p>
+        <p class="quote">Assistant project manager for a
+          redevelopment scheme to several areas within the
+          campus for new and revitalised faculties. Tyler is
+          responsible for the management of the fund
+          received, programme of works and coordination of
+          parties towards successful completion of the
+          project/s. Tyler works alongside several key
+          stakeholders to deliver the project/s requirements.</p>
       {%- endif -%}
       {{ item.description | strip | markdownify }}
     </div>
