@@ -23,7 +23,31 @@
           project/s. Tyler works alongside several key
           stakeholders to deliver the project/s requirements.</p>
       {%- endif -%}
+    </div>
       
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="{{ item.title | slugify }}">Buckinghamshire New University Office for Students Projects</h4>
+      <h4 id="{{ item.title | slugify }}">£6m</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        <a href="project1.html">See more info and photos here</a>
+      {%- endif -%}
+      
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.quote -%}
+        <p class="quote">Assistant project manager for a
+          redevelopment scheme to several areas within the
+          campus for new and revitalised faculties. Tyler is
+          responsible for the management of the fund
+          received, programme of works and coordination of
+          parties towards successful completion of the
+          project/s. Tyler works alongside several key
+          stakeholders to deliver the project/s requirements.</p>
+      {%- endif -%}
     </div>
   </div>
 {% endfor %}
