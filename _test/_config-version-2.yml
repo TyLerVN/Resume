@@ -46,6 +46,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: _test/images/travis.png
 about_content: > # this means to ignore newlines until the next config item.
+   As a born and raised South African, I innately grew a very curious mind for the world and had developed a passion for learning. I worked several jobs
+  during my undergraduate studies and inveloped a keen sense for hard work, time management and being proact
+  
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
