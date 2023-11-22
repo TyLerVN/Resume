@@ -10,22 +10,9 @@ phone: 07845248563
 website: sproogen.github.io/modern-resume-theme
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
 
-# Additional icon links
-additional_links:
+
+# Additional icon linksadditional_links:
 - title: Test link
   icon: fab fa-ello
   url: sproogen.github.io/modern-resume-theme
@@ -35,9 +22,11 @@ additional_links:
 
 # About Section
 about_title: About me title (Use this to override about section title)
-about_profile_image: _test/images/travis.png
 about_content: > # this means to ignore newlines until the next config item.
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  As a born and raised South African, I innately grew a very curious mind for the world and had developed a passion for learning. I worked several jobs
+  during my undergraduate studies and inveloped a keen sense for hard work, time management and being proactive. 
+  
+  so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else markdown supports.
 
