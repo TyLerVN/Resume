@@ -1,0 +1,278 @@
+.projects {
+  display:flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
+.experience {
+  display:flex;
+  padding-bottom:20px;
+}
+
+.experience1 {
+  display:flex;
+  padding-bottom:20px;
+  padding-top:10px;
+}
+
+.education {
+  display:block;
+  justify-content: space-between;
+}
+
+.edu-description {
+  padding-bottom: 20px;
+  padding-top:10px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-container {
+  margin-top:50px;
+}
+
+.header-right a {
+  text-align: right;
+  color: black;
+  text-decoration: none;
+
+}
+.subtitles{
+  border-bottom-style:dashed;
+  border-bottom-width: 2px;
+  border-bottom-color: #CCCCCC;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.subtitles1 {
+  border-bottom-style:dashed;
+  border-bottom-width: 2px;
+  border-bottom-color: #CCCCCC;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  display:flex;
+}
+
+.eduskills {
+  display:flex;
+}
+
+.skilllist {
+  text-align:center;
+  padding-left: 20px;
+}
+
+.edulist {
+  border-right-style: dashed;
+  border-right-width: 80%;
+  border-right-color: #CCCCCC;
+}
+
+.projects-headings-left {
+  font-size: 0.8rem;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.projects-headings-right {
+  font-size: 0.8rem;
+  text-align: right;
+  padding-bottom:15px;
+}
+
+.aboutme {
+  display:flex;
+}
+
+.aboutme-p {
+  padding-left: 40px;
+  padding-top: 3rem;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.edu-para {
+  padding-left: 150px;
+}
+
+.profile-img-left {
+  width:100px;
+  height:120px;
+  Padding-top:20px;
+}
+
+.profile-img-right {
+  width:100px;
+  height:100px;
+  border-radius: 100%;
+}
+
+.quote {
+  padding: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.mail-link {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+}
+
+.mail-link2 {
+  text-decoration: none;
+  color: black;
+  margin-top:0;
+  font-size:0.8rem;
+}
+
+.exp-para {
+  margin-bottom:0;
+}
+.images-settings {
+  width: 250px;
+  height: 265px;
+  border-radius: 100%;
+  padding-top: 20px;
+}
+
+.icons {
+  display:block;
+}
+
+.linkedin-icon {
+  text-align: center;
+}
+
+li {
+  text-align: left;
+  Padding-bottom: 20px;
+}
+
+.button--sacnite::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  z-index: -1;
+  box-shadow: inset 0 0 0 35px #333;
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+  transform: scale3d(0.9, 0.9, 1);
+  -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.button {
+  min-width: 150px;
+  border: none;
+  background: none;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 0;
+  float: none;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding: 5px 20px;
+  display: inline-block;
+  font-weight: 400;
+  max-width: 400px;
+}
+
+.button--round-l {
+  border-radius: 40px;
+}
+
+.button.button--sacnite {
+  width: 60px;
+  height: 60px;
+  min-width: 0;
+  padding: 0;
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.button--sacnite:hover {
+  color: #333;
+}
+
+.button--sacnite:hover::before {
+  box-shadow: inset 0 0 0 2px #333;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+
+ul.icons a:hover {
+  background: rgba(0, 0, 0, 0.025);
+}
+
+ul.icons li {
+  display: inline-block;
+  padding-left: 0.75rem;
+  padding-right: 4rem;
+}
+
+ul.icons a {
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  line-height: 2.8rem;
+  text-align: center;
+  border: 0;
+  box-shadow: none;
+  padding:0;
+  border-radius: 100%;
+  color: #aaa;
+}
+
+.icons i {
+  font-size: 30px;
+  line-height:60px;
+}
+
+.icons {
+  padding: 0;
+  font-size: 1rem;
+  margin-bottom:20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .icons {
+    text-align: center;
+  }
+}
+
+
+body {
+  background-color: #EEEEEE;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h4 {
+  margin:0;
+}
+
+h6 {
+  margin-top: 5px;
+  margin-bottom:5px;
+}

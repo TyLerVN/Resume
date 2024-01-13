@@ -1,0 +1,39 @@
+
+.body {
+  text-align:center;
+  background-color: #EEEEEE;
+  -ms-align-self: center;
+  align-self: center;
+  margin-top: 0;
+}
+
+.testimonial-img {
+  width: 50%;
+  height: 30%;
+}
+
+.carousel-item {
+  text-align:center;
+  width: 45%;
+
+}
+
+.mt-5 {
+  margin-top:0;
+}
+
+.container {
+  margin-top:0;
+}
+
+.carousel-inner{
+  text-align: center;
+}
+
+.carousel-control-prev {
+  color: black;
+}
+
+.carousel {
+  text-align:center;
+}
